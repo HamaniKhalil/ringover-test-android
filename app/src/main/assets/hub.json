@@ -1,0 +1,81 @@
+{
+  "hub" : {
+    "sms" : [
+      {
+        "number" : "+71234567890",
+        "number_label" : "Professional",
+        "contact_name" : "Lydia Carter",
+        "message" : "Lorem ipsum...",
+        "communication_at" : "2019-12-25 13:15:16",
+        "starred" : false,
+        "ivr" : "Technical support"
+      }
+    ],
+    "calls" : [
+      {
+        "number" : "+75431160490",
+        "number_label" : "Professional",
+        "contact_name" : "",
+        "call_type" : "incoming",
+        "communication_at" : "2019-12-28 16:32:04",
+        "ended_at" : "2019-12-28 16:48:04",
+        "answered" : true,
+        "starred" : true,
+        "ivr" : "Technical support",
+        "transfered_to" : [
+          {
+            "number" : "+18374672839",
+            "number_label" : "Professional",
+            "contact_name" : "Marine",
+            "transfered_at" : "2019-12-28 16:35:13",
+            "ivr" : "Service"
+          },
+          {
+            "number" : "+13374662829",
+            "number_label" : "Professional",
+            "contact_name" : "Thibaud",
+            "transfered_at" : "2019-12-28 16:35:19",
+            "ivr" : "Technical support"
+          }
+        ]
+      },
+      {
+        "number" : "+60013867844",
+        "number_label" : "Professional",
+        "contact_name" : "Omar",
+        "call_type" : "outgoing",
+        "communication_at" : "2020-01-05 10:47:39",
+        "answered" : true,
+        "starred" : false,
+        "ivr" : "Technical support",
+        "transfered_to" : [
+          {
+            "number" : "+18374672839",
+            "number_label" : "Professional",
+            "contact_name" : "Marine"
+          }
+        ]
+      },
+      {
+        "number" : "+71234567890",
+        "number_label" : "Professional",
+        "contact_name" : "Lydia Carter",
+        "call_type" : "incoming",
+        "communication_at" : "2019-12-27 17:50:33",
+        "answered" : false,
+        "starred" : false,
+        "ivr" : "Technical support"
+      }
+    ],
+    "voicemail" : [
+      {
+        "number" : "+71234567890",
+        "number_label" : "Professional",
+        "contact_name" : "Lydia Carter",
+        "communication_at" : "2019-12-27 17:52:04",
+        "starred" : false,
+        "ivr" : "Technical support"
+      }
+    ]
+  }
+}
